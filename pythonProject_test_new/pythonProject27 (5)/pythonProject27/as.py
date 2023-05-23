@@ -12,6 +12,7 @@ import time
 import tkinter as tk
 
 # 定义全局变量
+zhang='1'
 AS_HOST = '192.168.47.114'  # AS的主机名
 AS_PORT = 5005  # AS的端口号
 with open('private_key.pem', 'rb') as f:
