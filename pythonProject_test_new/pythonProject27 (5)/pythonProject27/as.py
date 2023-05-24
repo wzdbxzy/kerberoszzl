@@ -97,6 +97,7 @@ def as_server():
             print(f'解密后的TGT: {se1}')
             print(f'长度: {len(signed_tgt)}')
             print('good')
+            print('git test')
 
             # 将加密的会话密钥和 TGT 发送给客户端
             response = pickle.dumps({'tgt': signed_tgt, 'encrypted_session_key': encrypted_session_key})
